@@ -5,7 +5,7 @@ int main() {
 
     printf("Enter the first number: ");
     if (scanf("%d", &a) != 1) {
-        printf("Invalid input for the first number.\n");
+        printf("Invalid input for the first number.\n"); 
         return 1; // Exit with an error code
     }
 
